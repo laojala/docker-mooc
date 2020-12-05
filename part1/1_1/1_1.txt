@@ -1,0 +1,4 @@
+user@ls-macbook-pro docker-mooc % docker ps -a | grep nginx
+f6adcd9f0171        nginx                                                 "/docker-entrypoint.…"    About a minute ago   Exited (0) 14 seconds ago                         magical_elgamal
+15e56fa0005c        nginx                                                 "/docker-entrypoint.…"    About a minute ago   Exited (0) 2 seconds ago                          funny_shirley
+12e49fd0312f        nginx                                                 "/docker-entrypoint.…"    About a minute ago   Up About a minute            80/tcp               clever_pasteur

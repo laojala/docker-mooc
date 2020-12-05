@@ -1,0 +1,171 @@
+Script started on Thu Apr 23 08:36:06 2020
+[1m[7m%[27m[1m[0m                                                                                                                   user
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hexitvi typescript[13Ddocker --version[16Dvi typescript   [13Dls           [11Dkissaecho %PATH%$ANDROID_HOME[18Dvi ~/.zshrc       [11Dvd[9C[11Dadb devices[11Dvi ~/.zshrcenvrc env[12Dadb devices [11Dpwd        [8Dcd AndroidLibrary[10Dpwd        cd /usr/local/opt/android-sdk[30Djava --version                [16D[14Dadb devices   [11Decho $ANDROID_HOME[18Dsource ~/.zshenv               s  [7mdocker run -d nginx[27m[19D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27md[27m [27mn[27mg[27mi[27mn[27mx[?2004l
+user
+fa9840df155490d97abf8041bab1825b2921abac92b2c243cc0108c22de98f1a
+[1m[7m%[27m[1m[0m                                                                                                                   user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004h[7mdocker run -d nginx[27m[19D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27md[27m [27mn[27mg[27mi[27mn[27mx[?2004l
+
+d820e27ef9b8f75139097b1a4940da1ce7e178fc63ffbf64e7b0424476278aacuser
+[1m[7m%[27m[1m[0m                                                                                                                   
+ user
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004h[7mdocker run -d nginx[27m[19D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[user[27md[27m [27mn[27mg[27mi[27mn[27mx[?2004l
+
+42463c12908d63f0dda8822d212359d03db87b46ad0334ca2674da45e2649eea
+[1m[7m%[27m[1m[0m                                                                                                                   user
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker container ls[?2004l
+user
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+42463c12908d        nginx               "nginx -g 'daemon of…"   10 seconds ago      Up 9 seconds        80/tcp              unruffled_knuth
+d820e27ef9b8        nginx               "nginx -g 'daemon of…"   12 seconds ago      Up 11 seconds       80/tcp              kind_lamportuser
+fa9840df1554        nginx               "nginx -g 'daemon of…"   14 seconds ago      Up 13 seconds       80/tcp              quizzical_saha
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker stop 424[?2004l
+user
+424
+[1m[7m%[27m[1m[0m                                                                                                                   user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker stop 424   fa9[?2004l
+
+fa9
+[1m[7m%[27m[1m[0m                                                                                                                   user
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker stop fa9424[8Dcontainer ls[12Drun -d nginx[12Dcontainer ls[?2004l
+user
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+d820e27ef9b8        nginx               "nginx -g 'daemon of…"   56 seconds ago      Up 56 seconds       80/tcp              kind_lamportuser
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker container ls[12Dstop fa9       kind_lamport[?2004l
+
+kind_lamportuser
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker stop kind_lamport[17Dcontainer ls     [?2004l
+
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                   user
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker images[?2004l
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               latest              e791337790a6        5 days ago          127MB
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker images      ps -as[?2004l
+user
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES               SIZE
+42463c12908d        nginx               "nginx -g 'daemon of…"   2 minutes ago       Exited (0) About a minute ago                       unruffled_knuth     0user
+d820e27ef9b8        nginx               "nginx -g 'daemon of…"   2 minutes ago       Exited (0) 31 seconds ago                           kind_lamport        0B (virtual 127MB)
+fa9840df1554        nginx               "nginx -g 'daemon of…"   2 minutes ago       Exited (0) About a minute ago                       quizzical_saha      0B (virtual 127MB)
+0234e7fddc28        nginx               "nginx -g 'daemon of…"   21 minutes ago      Exited (0) 18 minutes ago                           happy_dirac         0B (virtual 127MB)
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker rm i nginx[?2004l
+
+Error response from daemon: conflict: unable to remove repository reference "nginx" (must force) - container 42463c12908d is using its referenced image e791337790a6
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker rmi nginx[9Dps -as   image[1Cps -a[1C     container ks  ls -a[?2004l
+
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES
+42463c12908d        nginx               "nginx -g 'daemon of…"   3 minutes ago       Exited (0) 2 minutes ago                            unruffled_knuth
+d820e27ef9b8        nginx               "nginx -g 'daemon of…"   3 minutes ago       Exited (0) About a minute ago                       kind_lamport
+fa9840df1554        nginx               "nginx -g 'daemon of…"   3 minutes ago       Exited (0) 2 minutes ago                            quizzical_saha
+0234e7fddc28        nginx               "nginx -g 'daemon of…"   22 minutes ago      Exited (0) 20 minutes ago                           happy_dirac
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker rm 424[?2004l
+
+424
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker rm 424   d82[?2004l
+
+d82
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker rm d82   fa9[?2004l
+
+fa9
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker rm fa9d82424container ls -a[15Drmi nginx      [9Dcontainer ls -a[?2004l
+
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
+0234e7fddc28        nginx               "nginx -g 'daemon of…"   23 minutes ago      Exited (0) 21 minutes ago                       happy_dirac
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker prune[?2004l
+
+docker: 'prune' is not a docker command.
+See 'docker --help'
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker prunecpruneoprunenprunetpruneapruneiprunenpruneeprunerprune prune[?2004l
+
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+0234e7fddc2898721bf256f65ff52e63386bdaa8778e1e16b9e819ba79ee788e
+
+Total reclaimed space: 0B
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker container prune[15Dprune          [10Dcontainer ls -a[?2004l
+
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker container ls -aprune[15Dprune          [10Dcontainer ls -a[15Drm fa9         [9Dd82424container ls -a[15Drmi nginx      [9Dps -as   rmi nginx[?2004l
+
+Untagged: nginx:latest
+Untagged: nginx@sha256:2d780aabadacf8b15fe9ab46b79faa6a0e8dd3b91f3c3b492e0fb350dd859ece
+Deleted: sha256:e791337790a6181d5ce870b3bb16de1a4d5aa3a916e8fba6907f57eb409934cf
+Deleted: sha256:615a169a3412634ebf75d5f0f5162290fb6042ba36285bd0ddc9ee123165b95e
+Deleted: sha256:bd32d67adcec3dba661c5afebc8a2a5413e68a3283b5ad7df134ed86f00b380a
+Deleted: sha256:b60e5c3bcef2f42ec42648b3acf7baf6de1fa780ca16d9180f3b4a3f266fe7bc
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker rmi nginx[9Dcontainer ls -aprune[15Dprune          [10Dcontainer ls -a[15Drm fa9         [9Dd82424container ls -a[15Drmi nginx      [9Dps -as   image[1Ccontainer ls[12Dstop kind_lamport[17Dcontainer ls     [12Dstop fa9    424[8Dcontainer ls[12Drun -d nginx          ps -a[?2004l
+
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker ps -a    images[?2004l
+
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+[1m[7m%[27m[1m[0m                                                                                                                   
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004heexit[?2004l
+
+
+Script done on Thu Apr 23 08:42:44 2020

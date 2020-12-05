@@ -1,0 +1,158 @@
+Script started on Thu Apr 23 12:10:12 2020
+[1m[7m%[27m[1m[0m                                                                                                                                                                        user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker image ls[?2004l
+
+REPOSITORY                          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu                              latest              4e5021d210f6        4 weeks ago         64.2MB
+fav_distro                          xenial              77be327e4b63        2 months ago        124MB
+ubuntu                              16.04               77be327e4b63        2 months ago        124MBuser
+ubuntu                              xenial              77be327e4b63        2 months ago        124MB
+devopsdockeruh/pull_exercise        latest              d9854bc0e13a        13 months ago       75.3MBuser
+devopsdockeruh/exec_bash_exercise   latest              489b6d8f2ab8        14 months ago       897MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker image ls[15Dexit           [11Ddocker image ls      c  container ö ks  ls[?2004l
+user
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                        user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hf ddocker pull [7mdevopsdockeruh/exec_bash_exercise[27m[33D[27md[27me[27mv[27mo[27mp[27ms[27md[27mo[27mc[27mk[27me[27mr[27mu[27mh[27m/[27me[27mx[27me[27mc[27m_[27mb[27ma[27ms[27mh[27m_[27me[27mx[27me[27mr[27mc[27mi[27ms[27me[?2004l
+
+Using default tag: latest
+latest: Pulling from devopsdockeruh/exec_bash_exercise
+Digest: sha256:c463832132d1fb0b8b3b60348a6fc36fda7512a4ef2d1050e8bea7b6a6d7a2f3
+Status: Image is up to date for devopsdockeruh/exec_bash_exercise:latest
+docker.io/devopsdockeruh/exec_bash_exercise:latest
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+user
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker pull devopsdockeruh/exec_bash_exercise[38Dcontainer ls                          [26D[?2004l
+user
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                        user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker run [7mdevopsdockeruh/exec_bash_exercise[27m[33D[27md[27me[27mv[27mo[27mp[27ms[27md[27mo[27mc[27mk[27me[27mr[27user7mx[27me[27mc[27m_[27mb[27ma[27ms[27mh[27m_[27me[27mx[27me[27mr[27mc[27mi[27ms[27me[?2004l
+
+(node:1) ExperimentalWarning: The fs.promises API is experimentaluser
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+^KWrote to file /usr/app/logs.txt
+^PWrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+^CClosing file
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker run devopsdockeruh/exec_bash_exercise[37Dcontainer ls                         [25D[?2004l
+
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                        user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker container ls[12Drun devopsdockeruh/exec_bash_exercise[1C devopsdockeruh/exec_bash_exercise[3user_bash_exercise[34D[P[34C [35D, devopsdockeruh/exec_bash_exercise[34D[P[34C [35D. devopsdockeruh/exec_bash_exercise[34D[P[34C [35D. devopsdockeruh/exec_bash_exercise[34D[P[34C [35D- devopsdockeruh/exec_bash_exercise[34Dd devopsdockeruh/exec_bash_exercise[34D[1C devopsdockeruh/exec_bash_exercise[34D[?2004l
+
+fdcc19bd50147a67bf3de02a05257328989847449a7386a77a89dbbfcdb64f98
+[1m[7m%[27m[1m[0m                                                                                                                                                                        user
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker run -d  devopsdockeruh/exec_bash_exercise[41Dcontainer ls                             [29D[?2004l
+
+CONTAINER ID        IMAGE                               COMMAND             CREATED             STATUS              PORTS               NAMES
+fdcc19bd5014        devopsdockeruh/exec_bash_exercise   "node index"        2 seconds ago       Up 1 second                             vigorous_franklin
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddlc,[?2004l
+user
+zsh: command not found: dlc,
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddkd docker exec -t it vo igorous[24Ddlc,                    [20Ddocker container ls           exec i -t it ci  vif gorous_franklo in bash[?2004l
+
+root@fdcc19bd5014:/usr/app# 
+[Kroot@fdcc19bd5014:/usr/app# sudo apt install curl.
+bash: sudo: command not found
+root@fdcc19bd5014:/usr/app# sudo apt install curl. 
+bash: sudo: command not found
+root@fdcc19bd5014:/usr/app# sudo apt install curl[1P[1P[1P[1P[1P
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 24%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+curl is already the newest version (7.52.1-5+deb9u8).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+root@fdcc19bd5014:/usr/app# curl --version
+curl 7.52.1 (x86_64-pc-linux-gnu) libcurl/7.52.1 OpenSSL/1.0.2q zlib/1.2.8 libidn2/0.16 libpsl/0.17.0 (+libidn2/0.16) libssh2/1.7.0 nghttp2/1.18.1 librtmp/2.3
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+Features: AsynchDNS IDN IPv6 Largefile GSS-API Kerberos SPNEGO NTLM NTLM_WB SSL libz TLS-SRP HTTP2 UnixSockets HTTPS-proxy PSL 
+root@fdcc19bd5014:/usr/app# eco  xit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hdocker exec -it vigorous_franklin bash[38Ddlc,                                  [34Ddocker container ls[?2004l
+
+CONTAINER ID        IMAGE                               COMMAND             CREATED             STATUS              PORTS               NAMES
+fdcc19bd5014        devopsdockeruh/exec_bash_exercise   "node index"        2 minutes ago       Up 2 minutes                            vigorous_franklin
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker run -d --rm    kt  it --name vif gorous_franklin [P[33C [34D[P[33C [34D[P[33C [34Ds -d -it --name vigorous_franklin [33Dt -d -it --name vigorous_franklin [33Da -d -it --name vigorous_franklin [33Dr -d -it --name vigorous_franklin [33Dt -d -it --name vigorous_franklin [33D[1C[1C[1C[1C[P[29C [30D[P[29C [30D[P[28C [30D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[7msh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl ht[7mt[7mp://$website;'[27m[K[A[74C[27ms[27mh[27m [27m-[27mc[27m [27m'[27me[27mc[27mh[27mo[27m [27m"[27mI[27mn[27mp[27mu[27mt[27m [27mw[27me[27mb[27ms[27mi[27mt[27me[27m:[27m"[27m;[27m [27mr[27me[27ma[27md[27m [27mw[27me[27mb[27ms[27mi[27mt[27me[27m;[27m [27me[27mc[27mh[27mo[27m [27m"[27mS[27me[27ma[27mr[27mc[27mh[27mi[27mn[27mg[27m.[27m.[27m"[27m;[27m [27ms[27ml[27me[27me[27mp[27m [27m1[27m;[27m [27mc[27mu[27mr[27ml[27m [27mh[27mtt[27mp[27m:[27m/[27m/[27m$[27mw[27me[27mb[27ms[27mi[27mt[27me[27m;[27m'[?2004l
+
+unknown shorthand flag: 't' in -t
+See 'docker start --help'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004hddocker exec -it fi  fi  di  vif gorous _franklin [7msh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$we[7mb[7msite;'[27m[K[A[74C[27ms[27mh[27m [27m-[27mc[27m [27m'[27me[27mc[27mh[27mo[27m [27m"[27mI[27mn[27mp[27mu[27mt[27m [27mw[27me[27mb[27ms[27mi[27mt[27me[27m:[27m"[27m;[27m [27mr[27me[27ma[27md[27m [27mw[27me[27mb[27ms[27mi[27mt[27me[27m;[27m [27me[27mc[27mh[27mo[27m [27m"[27mS[27me[27ma[27mr[27mc[27mh[27mi[27mn[27mg[27m.[27m.[27m"[27m;[27m [27ms[27ml[27me[27me[27mp[27m [27m1[27m;[27m [27mc[27mu[27mr[27ml[27m [27mh[27mt[27mt[27mp[27m:[27m/[27m/[27m$[27mw[27meb[27ms[27mi[27mt[27me[27m;[27m'[?2004l
+
+Input website:
+je  helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+[1m[7m%[27m[1m[0m                                                                                                                                                                        
+ 
+
+[0m[27m[24m[Juser@ls-macbook-pro part1 % [K[?2004heexit[?2004l
+
+
+Script done on Thu Apr 23 12:17:39 2020
